@@ -1,4 +1,4 @@
-package main
+package getrate
 
 import (
 	"net/http"

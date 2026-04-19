@@ -1,11 +1,13 @@
-package main
+package examples
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestAdd(t *testing.T) {
 	got := Add(2, 3)
-	//want := 5
-	want := 6 // incorrected value
+	want := 5
+	//want := 6  incorrected value
 	if got != want {
 		t.Errorf("Add(2,3) = %d, want %d ", got, want)
 	}

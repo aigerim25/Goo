@@ -1,7 +1,9 @@
 // table-driven test
-package main
+package examples
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestAddTableDriven(t *testing.T) {
 	tests := []struct {
